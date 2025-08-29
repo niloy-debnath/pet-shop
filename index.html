@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Shop | Home</title>
+
+    <!-- FavIcon -->
+
+    <link
+      rel="shortcut icon"
+      href="c1-assets/logo-header.png"
+      type="image/x-icon"
+    />
+
+    <!-- Tailwind and DaisyUI -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="bg-[#FFF9F4]">
+      <nav class="py-5 px-24 flex justify-between">
+        <div class="flex justify-start items-center gap-3">
+          <img src="./c1-assets/logo-header.png" alt="" />
+          <h1 class="text-4xl font-bold sora-bold">
+            Browse<span class="text-[#FFDC26]">4</span>Pets
+          </h1>
+        </div>
+        <div class="flex items-center gap-10 text-xl">
+          <a href="">Find a pet</a>
+          <a href="">Breeds</a>
+          <a href="">Contact us</a>
+        </div>
+        <div class="flex items-center gap-5">
+          <div class="flex items-center gap-7">
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <button class="border-[#FFDC26] border-2 px-10 py-4 rounded-xl">
+            Login
+          </button>
+          <button class="bg-[#FFDC26] px-10 py-4 rounded-xl">Register</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Banner -->
+      <section
+        class="mt-16 bg-[url('c1-assets/cat-big.png')] bg-contain bg-no-repeat bg-right h-[600px] mx-24 flex items-center"
+      >
+        <div class="w-1/2">
+          <h1 class="font-bold z-30 text-5xl adlam-display-bold leading-tight">
+            Pamper Your Pet, <br />
+            Because They Deserve the Best
+          </h1>
+          <p class="block z-20 font-light my-6 text-xl text-gray-600">
+            Discover a world of treats, toys, and essentials handpicked for
+            <br />
+            your furry friends. Shop now and make tails wag with joy!
+          </p>
+          <button class="bg-[#FFDC26] px-10 py-4 rounded-xl font-semibold">
+            Find a pet
+          </button>
+        </div>
+      </section>
+
+      <!-- Browse by category -->
+      <section class="px-20">
+        <h1 class="font-bold mb-5 text-5xl adlam-display-bold leading-tight">
+          Browse By Categories
+        </h1>
+        <section class="grid grid-cols-6 gap-5">
+          <!-- Card1 -->
+
+          <div>
+            <div>
+              <div
+                class="bg-[#F9DF8A] py-9 px-12 text-center flex flex-col justify-center items-center rounded-2xl"
+              >
+                <div
+                  class="p-5 w-20 h-20 flex justify-center items-center bg-white rounded-full"
+                >
+                  <img src="./c1-assets/dog-cartoon.png" alt="" />
+                </div>
+                <div class="my-6">
+                  <p class="font-bold">Dog</p>
+                  <p>3 items</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card2 -->
+
+          <div>
+            <div>
+              <div
+                class="bg-[#F9DF8A] py-9 px-12 text-center flex flex-col justify-center items-center rounded-2xl"
+              >
+                <div
+                  class="p-5 w-20 h-20 flex justify-center items-center bg-white rounded-full"
+                >
+                  <img src="./c1-assets/fish-cartoon.png" alt="" />
+                </div>
+                <div class="my-6">
+                  <p class="font-bold">Fish</p>
+                  <p>3 items</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card3 -->
+
+          <div>
+            <div>
+              <div
+                class="bg-[#F9DF8A] py-9 px-12 text-center flex flex-col justify-center items-center rounded-2xl"
+              >
+                <div
+                  class="p-5 w-20 h-20 flex justify-center items-center bg-white rounded-full"
+                >
+                  <img src="./c1-assets/cat-cartoon.png" alt="" />
+                </div>
+                <div class="py-6">
+                  <p class="font-bold">Cat</p>
+                  <p>3 items</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card4 -->
+
+          <div>
+            <div>
+              <div
+                class="bg-[#F9DF8A] py-9 px-12 text-center flex flex-col justify-center items-center rounded-2xl"
+              >
+                <div
+                  class="p-5 w-20 h-20 flex justify-center items-center bg-white rounded-full"
+                >
+                  <img src="./c1-assets/bird-cartoon.png" alt="" />
+                </div>
+                <div class="py-6">
+                  <p class="font-bold">Bird</p>
+                  <p>3 items</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card5 -->
+
+          <div>
+            <div>
+              <div
+                class="bg-[#F9DF8A] py-9 px-12 text-center flex flex-col justify-center items-center rounded-2xl"
+              >
+                <div
+                  class="p-5 w-20 h-20 flex justify-center items-center bg-white rounded-full"
+                >
+                  <img src="./c1-assets/mouse-cartoon.png" alt="" />
+                </div>
+                <div class="py-6">
+                  <p class="font-bold">Small Pet</p>
+                  <p>3 items</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card6 -->
+
+          <div>
+            <div class="">
+              <div
+                class="bg-[#F9DF8A] py-9 px-12 text-center flex flex-col justify-center items-center rounded-2xl"
+              >
+                <div
+                  class="p-5 w-20 h-20 flex justify-center items-center bg-white rounded-full"
+                >
+                  <img src="./c1-assets/rabbit-cartoon.png" alt="" />
+                </div>
+                <div class="py-6">
+                  <p class="font-bold">Rabbit</p>
+                  <p>3 items</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

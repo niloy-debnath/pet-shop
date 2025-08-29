@@ -1,0 +1,18 @@
+.sora-bold {
+  font-family: "Sora", sans-serif;
+
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sora-regular {
+  font-family: "Sora", sans-serif;
+
+  font-style: normal;
+}
+
+.adlam-display-bold {
+  font-family: "ADLaM Display", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
